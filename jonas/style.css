@@ -1,0 +1,62 @@
+body {
+  background-image: url("Jonas-1.jpg"), url("Jonas-3.jpg"), url("Jonas-2.jpg");
+  background-position: left, center, right;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 33.3vw, 33.3vw, 33.3vw;
+}
+
+.photo {
+  width: 50px;
+}
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.greeting-1 {
+  font-size: 50px;
+  margin-top: 30vh;
+  margin-left: 40vw;
+  color: orange;
+}
+
+.greeting-2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 43vw;
+  color: orange;
+}
+
+.greeting-3 {
+  font-size: 46px;
+  margin-top: 10px;
+  margin-left: 50vw;
+  color: orange;
+}
+
+.greeting-4 {
+  font-size: 44px;
+  margin-top: 20px;
+  margin-left: 48vw;
+  color: orange;
+}
+
+.rain {
+  font-size: 42px;
+  color: orange;
+  position: fixed;
+  top: -1vh;
+  transform: translateY(0);
+  font-size: 2rem;
+  animation: fall 3s ease-in-out forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+    color: blue;
+  }
+}
