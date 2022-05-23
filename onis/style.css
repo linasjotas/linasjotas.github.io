@@ -1,0 +1,52 @@
+body {
+  background-image: url("Onis.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: lightblue;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.greeting-1 {
+  font-size: 50px;
+  margin-top: 30vh;
+  margin-left: 30vw;
+  color: red;
+}
+
+.greeting-2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-left: 33vw;
+  color: blue;
+}
+
+.greeting-3 {
+  font-size: 46px;
+  margin-top: 10px;
+  margin-left: 40vw;
+  color: black;
+}
+
+.rain {
+  font-size: 42px;
+  color: blue;
+  position: fixed;
+  top: -1vh;
+  transform: translateY(0);
+  font-size: 2rem;
+  animation: fall 3s ease-in-out forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+    color: blue;
+  }
+}
